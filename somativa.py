@@ -46,7 +46,6 @@ else:
                 print("Resposta incorreta, por favor digite 'sim' ou 'não'.")
                 adicionar = input("Você gostaria de comprar outro ingresso? (sim/não) ")
 
-        # Pergunta sobre exclusão de ingresso
         excluir = input("Você deseja excluir algum ingresso? (sim/não) ")
         while excluir not in ("sim", "não"):
             print("Resposta incorreta, por favor digite 'sim' ou 'não'.")
